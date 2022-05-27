@@ -1,0 +1,7 @@
+It can make 3d shape's similar texture by using one or two panel.
+But actually basic system of Live2d is 2D visual production.
+For this reason, it is difficult to represent shadow or reflection effect by overlapping the clipping mask texture on the model texture.
+if directly deform model panel for rotating production, the clipping mask is 
+subjected each basic model texture, so it will be seen at once that frontward and backward in viewpoint.
+It appear in figure X.
+To make shadow and reflection effect using clipping mask on the each frontward and backward, set the front and back texture which can extend or shrink according to angle value.
